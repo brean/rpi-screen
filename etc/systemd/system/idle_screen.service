@@ -3,7 +3,7 @@ Description=Start swayidle to turn off monitor after 30 seconds
 After=network.target
 
 [Service]
-ExecStart=/home/andreas/idle.bash
+ExecStart=/home/user/idle.bash
 User=andreas
 Group=andreas
 
